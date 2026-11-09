@@ -1,2 +1,1 @@
-# sandhiya-st.github.io
-Personal portfolio website of Sandhiya S, a Data Analyst skilled in SQL, Power BI, Tableau, Excel and Python. Built with HTML, CSS and JavaScript.
+A responsive, dark-themed portfolio website that presents my work as a Data Analyst. It includes sections for About, Education, Technical Skills, Experience, Featured Projects, Certifications and Contact. Features include scroll reveal animations, active navigation highlighting, a mobile menu, a back-to-top button and a validated contact form. It is built with plain HTML5, CSS3 and JavaScript, with no frameworks.
