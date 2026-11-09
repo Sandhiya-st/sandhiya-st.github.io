@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Sandhiya S | Data Analyst Portfolio</title>
+  <meta name="description" content="Portfolio of Sandhiya S, MCA Data Science graduate and Data Analyst Intern skilled in SQL, Power BI, Tableau, Excel and Python.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <a class="skip" href="#home">Skip to content</a>
+
+  <!-- NAVIGATION -->
+  <header class="nav">
+    <div class="wrap nav-in">
+      <a href="#home" class="logo">Sandhiya S</a>
+      <button class="burger" id="burger" aria-label="Open menu" aria-expanded="false" aria-controls="menu"><i class="fa-solid fa-bars"></i></button>
+      <nav id="menu" class="menu" aria-label="Main">
+        <a href="#about">About</a><a href="#education">Education</a><a href="#skills">Skills</a>
+        <a href="#experience">Experience</a><a href="#projects">Projects</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="wrap hero-in">
+        <div>
+          <p class="muted">Hi, I'm</p>
+          <h1>Sandhiya S</h1>
+          <p class="role">Data Analyst | Dashboards, SQL &amp; Reporting</p>
+          <p class="lead">I turn raw data into accurate dashboards and reports. MCA Data Science graduate with hands-on experience in data cleaning, validation and quality checks.</p>
+          <div class="btns">
+            <a class="btn primary" href="#projects">View My Work</a>
+            <a class="btn ghost" href="#contact">Contact Me</a>
+          </div>
+          <div class="social">
+            <a href="https://github.com/Sandhiya-st" target="_blank" rel="noopener" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+            <a href="https://linkedin.com/in/sandhiya-s11" target="_blank" rel="noopener" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="mailto:sandhiyas12062004@gmail.com" aria-label="Email"><i class="fa-solid fa-envelope"></i></a>
+          </div>
+        </div>
+        <!-- Mini dashboard built from the Loan Acceptance project results -->
+        <aside class="dash" aria-label="Loan Acceptance model results">
+          <p class="dash-title">Loan Acceptance Model <span>1,000 test records</span></p>
+          <div class="kpis">
+            <div><b>95.1%</b><small>Accuracy</small></div>
+            <div><b>86%</b><small>Precision (accepted)</small></div>
+          </div>
+          <div class="bars" role="img" aria-label="Bar chart: accuracy 95.1, precision 86">
+            <i style="--h:95%"></i><i style="--h:86%"></i><i style="--h:64%"></i><i style="--h:73%"></i>
+          </div>
+          <p class="dash-note">Built in Python, visualised in Tableau</p>
+        </aside>
+      </div>
+    </section>
+
+    <!-- ABOUT -->
+    <section id="about" class="section reveal">
+      <div class="wrap about">
+        <figure class="photo">
+          <img src="profile.jpg" alt="Portrait of Sandhiya S" onerror="this.remove()">
+          <span class="initials" aria-hidden="true">SS</span>
+          <!-- [Add Profile Photo]: save your photo as profile.jpg next to index.html -->
+        </figure>
+        <div>
+          <h2>About me</h2>
+          <p>MCA Data Science graduate (CGPA 9.2/10) and Data Analyst Intern who turns raw data into accurate dashboards and reports. I built a Tableau loan dashboard backed by a 95.1%-accurate model on 1,000 records, with hands-on experience in data cleaning, validation and quality checks.</p>
+          <p>I work with SQL, Power BI, Tableau, Excel (XLOOKUP, PivotTables, Charts), Power Query and Python. My research was published in IJRASET, I was a Datathon finalist, and I am comfortable presenting insights to non-technical stakeholders.</p>
+          <ul class="facts">
+            <li><i class="fa-solid fa-location-dot"></i> Puducherry, India</li>
+            <li><i class="fa-solid fa-graduation-cap"></i> MCA, Data Science</li>
+            <li><i class="fa-solid fa-book-open"></i> Published in IJRASET</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="education" class="section reveal">
+      <div class="wrap">
+        <h2>Education</h2>
+        <div class="grid two">
+          <article class="card"><h3>MCA, Data Science</h3><p>Takshashila University, Tamil Nadu</p><p class="meta">2024 – 2026 &nbsp;|&nbsp; CGPA 9.2/10</p></article>
+          <article class="card"><h3>BCA</h3><p>Idhaya College of Arts &amp; Science for Women, Pondicherry</p><p class="meta">2021 – 2024 &nbsp;|&nbsp; CGPA 8.3/10</p></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section reveal">
+      <div class="wrap">
+        <h2>Technical skills</h2>
+        <div class="grid three">
+          <article class="card"><h3><i class="fa-solid fa-chart-column"></i> BI &amp; Visualization</h3>
+            <div class="tags"><span>Power BI</span><span>Tableau</span><span>Dashboard Development</span><span>KPI Monitoring</span><span>Ad-Hoc Reporting</span><span>Data Visualization</span><span>Matplotlib</span><span>Seaborn</span></div></article>
+          <article class="card"><h3><i class="fa-solid fa-magnifying-glass-chart"></i> Data Analytics</h3>
+            <div class="tags"><span>Data Analysis</span><span>Data Cleaning</span><span>Data Validation</span><span>Data Quality Checks</span><span>Exploratory Data Analysis</span><span>Statistical Analysis</span><span>Data Modeling Techniques</span></div></article>
+          <article class="card"><h3><i class="fa-solid fa-database"></i> Databases &amp; ETL</h3>
+            <div class="tags"><span>SQL for Relational Databases</span><span>Power Query</span><span>Data Transformation</span><span>Data Preparation</span></div></article>
+          <article class="card"><h3><i class="fa-solid fa-table"></i> Excel</h3>
+            <div class="tags"><span>XLOOKUP</span><span>VLOOKUP</span><span>PivotTables</span><span>Charts</span><span>Advanced Functions</span></div></article>
+          <article class="card"><h3><i class="fa-brands fa-python"></i> Programming &amp; Tools</h3>
+            <div class="tags"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Scikit-learn</span><span>SciPy</span><span>Jupyter Notebook</span><span>Google Colab</span><span>Streamlit</span><span>Git</span><span>GitHub</span></div></article>
+          <article class="card"><h3><i class="fa-solid fa-comments"></i> Soft skills</h3>
+            <div class="tags"><span>Communication</span><span>Presenting to Non-Technical Stakeholders</span><span>Cross-Functional Collaboration</span><span>Attention to Detail</span><span>Time Management</span><span>Adaptability</span></div></article>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience" class="section reveal">
+      <div class="wrap">
+        <h2>Experience</h2>
+        <ol class="timeline">
+          <li>
+            <p class="meta">Feb 2026 – Apr 2026</p>
+            <h3>Data Analyst Intern</h3>
+            <p class="company">Eagle-Hitech Softclou Private Limited, Chennai</p>
+            <ul>
+              <li>Improved the reliability of sales data before reporting by cleaning, validating and standardizing datasets in Excel and Python, removing duplicate, missing and inconsistent entries.</li>
+              <li>Strengthened data accuracy for reporting by applying validation rules, completing data quality checks across the sales datasets and documenting findings.</li>
+              <li>Resolved recurring data discrepancies by tracing root causes and collaborating with team members on agreed fixes.</li>
+            </ul>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects" class="section reveal">
+      <div class="wrap">
+        <h2>Featured projects</h2>
+        <!-- Add a project link by putting its repo URL in the href of "Code". [Add live demo URL] where available. -->
+        <div class="grid two">
+          <article class="card project">
+            <h3>Loan Acceptance Prediction Dashboard</h3>
+            <p>Cleaned customer data in Pandas and applied logistic regression, then presented the key findings in an interactive Tableau dashboard.</p>
+            <ul><li>95.1% accuracy on 1,000 test records</li><li>86% precision on accepted loans</li></ul>
+            <div class="tags"><span>Python</span><span>Pandas</span><span>NumPy</span><span>Logistic Regression</span><span>Tableau</span></div>
+            <a class="link" href="https://github.com/Sandhiya-st" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code on GitHub</a>
+          </article>
+          <article class="card project">
+            <h3>AI-Powered Smart Career Guidance System</h3>
+            <p>A Streamlit app with four features: placement prediction, skill-gap analysis, career recommendations and resume assessment.</p>
+            <ul><li>94.5% test accuracy, AUC 0.99</li><li>Best of 7 models, 5-fold cross-validation, 10,000 records</li></ul>
+            <div class="tags"><span>Python</span><span>Pandas</span><span>Scikit-learn</span><span>Streamlit</span></div>
+            <a class="link" href="https://github.com/Sandhiya-st" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code on GitHub</a>
+          </article>
+          <article class="card project">
+            <h3>Shopping Behavior Data Analysis</h3>
+            <p>Internship project using EDA, visualizations and K-Means clustering to understand customer behavior.</p>
+            <ul><li>Uncovered 4 customer segments</li><li>Validated them with 3 hypothesis tests on 3,900 transactions</li></ul>
+            <div class="tags"><span>Python</span><span>Pandas</span><span>SciPy</span><span>Scikit-learn</span></div>
+            <a class="link" href="https://github.com/Sandhiya-st" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Code on GitHub</a>
+          </article>
+          <article class="card project">
+            <h3>Bitcoin Price Prediction Using Machine Learning</h3>
+            <p>Modeled Bitcoin price trends from historical data and Twitter sentiment, preprocessing data and engineering features for BiLSTM and BiGRU models.</p>
+            <ul><li>Published in IJRASET, Vol. 12, Issue V, May 2024</li></ul>
+            <div class="tags"><span>Python</span><span>TensorFlow</span><span>BiLSTM</span><span>BiGRU</span><span>NLP</span></div>
+            <a class="link" href="https://doi.org/10.22214/ijraset.2024.61584" target="_blank" rel="noopener"><i class="fa-solid fa-file-lines"></i> Read the paper</a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- CERTIFICATIONS -->
+    <section id="certifications" class="section reveal">
+      <div class="wrap">
+        <h2>Certifications &amp; achievements</h2>
+        <ul class="grid three certs">
+          <li class="card"><i class="fa-solid fa-award"></i> Deloitte Data Analytics Job Simulation</li>
+          <li class="card"><i class="fa-solid fa-award"></i> JPMorgan Chase Quantitative Research Job Simulation</li>
+          <li class="card"><i class="fa-solid fa-award"></i> Power BI Bootcamp</li>
+          <li class="card"><i class="fa-solid fa-award"></i> Python Using AI</li>
+          <li class="card"><i class="fa-solid fa-award"></i> Excel Mini-Project Workshop (2-Day), NoviTech R&amp;D Private Limited, Sep 2026</li>
+          <li class="card"><i class="fa-solid fa-trophy"></i> Datathon Hackathon Finalist, Takshashila University</li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact" class="section reveal">
+      <div class="wrap contact">
+        <div>
+          <h2>Get in touch</h2>
+          <p>I'm looking for Data Analyst roles. Send me a message or reach me directly.</p>
+          <ul class="facts">
+            <li><i class="fa-solid fa-envelope"></i> <a href="mailto:sandhiyas12062004@gmail.com">sandhiyas12062004@gmail.com</a></li>
+            <li><i class="fa-solid fa-phone"></i> <a href="tel:+919042379150">+91 9042379150</a></li>
+            <li><i class="fa-brands fa-linkedin-in"></i> <a href="https://linkedin.com/in/sandhiya-s11" target="_blank" rel="noopener">linkedin.com/in/sandhiya-s11</a></li>
+            <li><i class="fa-brands fa-github"></i> <a href="https://github.com/Sandhiya-st" target="_blank" rel="noopener">github.com/Sandhiya-st</a></li>
+          </ul>
+        </div>
+        <form id="form" class="card" novalidate>
+          <label for="name">Name</label>
+          <input id="name" name="name" type="text" autocomplete="name" required>
+          <span class="err" data-for="name"></span>
+          <label for="email">Email</label>
+          <input id="email" name="email" type="email" autocomplete="email" required>
+          <span class="err" data-for="email"></span>
+          <label for="subject">Subject</label>
+          <input id="subject" name="subject" type="text" required>
+          <span class="err" data-for="subject"></span>
+          <label for="message">Message</label>
+          <textarea id="message" name="message" rows="5" required></textarea>
+          <span class="err" data-for="message"></span>
+          <button class="btn primary" type="submit">Send message</button>
+          <p class="note" id="status" role="status">Note: a static page cannot send email on its own. This form opens your email app with the message filled in. For automatic delivery, connect a form service such as Formspree or Netlify Forms.</p>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer"><div class="wrap"><p>&copy; <span id="year"></span> Sandhiya S. All rights reserved.</p></div></footer>
+  <button class="top" id="top" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></button>
+  <script src="script.js"></script>
+</body>
+</html>
